@@ -1,8 +1,6 @@
 /* Start writing your CSS */
 
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
-</style>
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap')
 
 /* CSS Reset 
    http://meyerweb.com/eric/tools/css/reset/ 
@@ -56,13 +54,58 @@ table {
 
 /* End Reset */
 
+
+
 *{
+    font-family: "Source Sans 3", sans-serif;
     background-color: #fff;
+    margin: 0;
 }
 
 h1{
+    font-weight: 800;
+    font-size: 2.2rem;
     color:rgba(44, 44, 44, 1);
 }
+
+/* Main Header and Nav */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: 0;
+    flex-direction: row;
+    margin: 0 auto;
+    border-top: rgb(6, 6, 90) solid 8px;
+    padding: 2rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: 0;
+    margin: 0;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:rgba(44, 44, 44, 1);
+}
+
+
 
 
 
