@@ -56,12 +56,12 @@ table {
 
 /* End Reset */
 
-* {
-    background-color: bisque;
+*{
+    background-color: #fff;
 }
 
 h1{
-    color:rgb(45, 16, 6);
+    color:rgba(44, 44, 44, 1);
 }
 
 
